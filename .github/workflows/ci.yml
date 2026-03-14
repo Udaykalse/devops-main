@@ -18,4 +18,4 @@ jobs:
           node-version: 18
 
       - name: Run script
-        run: node index.js
+        run: node d1/devops-ci-demo/index.js
