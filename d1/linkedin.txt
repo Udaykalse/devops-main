@@ -1,0 +1,9 @@
+Just practiced my first CI pipeline using GitHub Actions.
+
+While setting it up, the workflow initially didn’t trigger because the `.github/workflows` directory was placed inside a nested folder. After fixing the repository structure, the pipeline started but failed again due to an incorrect script path.
+
+By reading the CI logs and debugging step-by-step, I corrected the path and successfully ran the pipeline.
+
+A small exercise, but a great learning experience in understanding how CI works and how to troubleshoot automation workflows.
+
+Project: https://github.com/your-username/your-repo
